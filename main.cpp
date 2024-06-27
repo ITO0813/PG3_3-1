@@ -29,7 +29,7 @@ int main() {
 
 	for (list<const char*>::iterator itr = station.begin(); itr != station.end(); itr++) {
 
-		if (strcmp(*itr, "Tamachi") == 0) {
+		if (strcmp(*itr, "Sinagawa") == 0) {
 			itr = station.insert(itr, "Takanawa-Gateway");
 			++itr;
 		}
